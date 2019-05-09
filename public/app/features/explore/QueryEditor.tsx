@@ -13,7 +13,6 @@ import 'app/features/plugins/plugin_loader';
 
 interface QueryEditorProps {
   datasource: any;
-  error?: string | JSX.Element;
   onExecuteQuery?: () => void;
   onQueryChange?: (value: DataQuery) => void;
   initialQuery: DataQuery;
